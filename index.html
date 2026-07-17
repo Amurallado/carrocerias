@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Taller multimarca en Vitoria-Gasteiz. Especialistas en carrocería, chapa y pintura. Reparación de plásticos, llantas y faros. Biyok, referencia en Álava.">
+  <meta property="og:title" content="Carrocerías Biyok — Taller de referencia en Vitoria-Gasteiz">
+  <meta property="og:description" content="Especialistas en carrocería, chapa y pintura del automóvil en Vitoria-Gasteiz, Álava.">
+  <meta property="og:image" content="hero.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Carrocerías Biyok — Vitoria-Gasteiz | Álava</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="nav-bar" id="nav-bar" role="banner">
+    <nav class="nav-inner container" aria-label="Navegación principal">
+      <a href="#" class="nav-logo" aria-label="Carrocerías Biyok - Inicio">
+        <span class="nav-logo-mark" aria-hidden="true">B</span>
+        <span class="nav-logo-text">Carrocerías <strong>Biyok</strong></span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#proceso" class="nav-link">Proceso</a></li>
+        <li><a href="#sobre-nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="tel:945263244" class="btn-ghost nav-phone">945 263 244</a>
+        <a href="#contacto" class="btn-primary">Pedir presupuesto</a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Menú móvil" hidden>
+      <ul class="mobile-links" role="list">
+        <li><a href="#servicios" class="mobile-link">Servicios</a></li>
+        <li><a href="#proceso" class="mobile-link">Proceso</a></li>
+        <li><a href="#sobre-nosotros" class="mobile-link">Nosotros</a></li>
+        <li><a href="#contacto" class="mobile-link">Contacto</a></li>
+      </ul>
+      <a href="#contacto" class="btn-primary mobile-cta">Pedir presupuesto</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true">
+        <img src="hero.jpg" alt="" class="hero-img" loading="eager" fetchpriority="high">
+        <div class="hero-overlay"></div>
+        <div class="hero-grain"></div>
+      </div>
+      <div class="hero-content container">
+        <div class="hero-badge">
+          <span class="badge-dot" aria-hidden="true"></span>
+          Taller multimarca · Vitoria-Gasteiz
+        </div>
+        <h1 id="hero-heading" class="hero-title">
+          Carrocería.<br>Chapa.<br>Pintura.
+        </h1>
+        <p class="hero-sub">
+          Más de dos décadas reparando vehículos en Álava. Trabajamos con todas las marcas, con la precisión y el cuidado que tu coche merece.
+        </p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn-primary btn-lg">Solicitar presupuesto</a>
+          <a href="#servicios" class="btn-ghost btn-lg">Ver servicios</a>
+        </div>
+        <div class="hero-stats" role="list" aria-label="Estadísticas del taller">
+          <div class="stat" role="listitem">
+            <span class="stat-number">+20</span>
+            <span class="stat-label">años de experiencia</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat" role="listitem">
+            <span class="stat-number">Todas</span>
+            <span class="stat-label">las marcas</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat" role="listitem">
+            <span class="stat-number">Gasteiz</span>
+            <span class="stat-label">centro de Álava</span>
+          </div>
+        </div>
+      </div>
+      <a href="#servicios" class="hero-scroll" aria-label="Desplazarse hacia abajo">
+        <span class="scroll-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <section class="section services-section" id="servicios" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Lo que hacemos</span>
+          <h2 id="services-heading" class="section-title">Servicios de carrocería</h2>
+          <p class="section-desc">Cada vehículo que entra en nuestro taller sale con el acabado que merece. Sin atajos.</p>
+        </div>
+        <div class="services-grid">
+
+          <article class="service-card service-card--featured" aria-labelledby="service-1">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>
+            </div>
+            <h3 id="service-1" class="service-title">Chapa y carrocería</h3>
+            <p class="service-desc">Reparación de abolladuras, golpes y deformaciones. Trabajamos el metal con precisión para devolver la geometría original de cada panel.</p>
+            <ul class="service-list" role="list">
+              <li>Abolladuras y golpes</li>
+              <li>Sustitución de paneles</li>
+              <li>Daños por granizo</li>
+              <li>Reparación sin pintura (PDR)</li>
+            </ul>
+          </article>
+
+          <article class="service-card" aria-labelledby="service-2">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>
+            </div>
+            <h3 id="service-2" class="service-title">Pintura y acabados</h3>
+            <p class="service-desc">Aplicación en cabina de pintura con igualación de color exacta. Barnices, metalizados y perlas con el mismo acabado de fábrica.</p>
+            <ul class="service-list" role="list">
+              <li>Igualación de color por escáner</li>
+              <li>Pinturas metalizadas y perladas</li>
+              <li>Lacados y barnices</li>
+              <li>Retoque de arañazos</li>
+            </ul>
+          </article>
+
+          <article class="service-card" aria-labelledby="service-3">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
+            </div>
+            <h3 id="service-3" class="service-title">Plásticos y fibras</h3>
+            <p class="service-desc">Reparación y sustitución de paragolpes, molduras y spoilers. Recuperamos piezas de fibra que otros dan por perdidas.</p>
+            <ul class="service-list" role="list">
+              <li>Paragolpes y faldones</li>
+              <li>Molduras y guarniciones</li>
+              <li>Fibra de vidrio</li>
+              <li>Elementos de carbono</li>
+            </ul>
+          </article>
+
+          <article class="service-card" aria-labelledby="service-4">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+            </div>
+            <h3 id="service-4" class="service-title">Reparación de llantas</h3>
+            <p class="service-desc">Reparamos llantas de aleación dañadas por bordillos o baches. Recuperamos geometría y acabado sin necesidad de sustitución.</p>
+            <ul class="service-list" role="list">
+              <li>Llantas de aleación</li>
+              <li>Corrección de deformaciones</li>
+              <li>Repintado y pulido</li>
+              <li>Llantas de cualquier marca</li>
+            </ul>
+          </article>
+
+          <article class="service-card" aria-labelledby="service-5">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <h3 id="service-5" class="service-title">Recuperación de faros</h3>
+            <p class="service-desc">Pulido y restauración de ópticas amarillentas u opacas. Recuperamos la transparencia y mejoramos la seguridad nocturna.</p>
+            <ul class="service-list" role="list">
+              <li>Pulido de plástico acrílico</li>
+              <li>Desoxidado de ópticas</li>
+              <li>Tratamiento sellador UV</li>
+              <li>Resultado duradero</li>
+            </ul>
+          </article>
+
+          <article class="service-card service-card--cta" aria-labelledby="service-6">
+            <div class="cta-card-content">
+              <h3 id="service-6" class="cta-card-title">¿No ves lo que necesitas?</h3>
+              <p class="cta-card-desc">Cuéntanos qué le ocurre a tu coche. Si podemos repararlo, lo reparamos.</p>
+              <a href="#contacto" class="btn-primary">Consultar sin compromiso</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section" id="proceso" aria-labelledby="process-heading">
+      <div class="process-bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Cómo trabajamos</span>
+          <h2 id="process-heading" class="section-title">Del presupuesto a la entrega</h2>
+          <p class="section-desc">Un proceso claro, sin sorpresas. Te informamos en cada paso.</p>
+        </div>
+        <ol class="process-steps" role="list">
+          <li class="process-step" aria-labelledby="step-1">
+            <div class="step-number" aria-hidden="true">01</div>
+            <div class="step-content">
+              <h3 id="step-1" class="step-title">Valoración gratuita</h3>
+              <p class="step-desc">Revisamos los daños en persona o por fotos. Te damos un presupuesto detallado sin ningún coste.</p>
+            </div>
+          </li>
+          <li class="process-step" aria-labelledby="step-2">
+            <div class="step-number" aria-hidden="true">02</div>
+            <div class="step-content">
+              <h3 id="step-2" class="step-title">Reparación en taller</h3>
+              <p class="step-desc">Tu vehículo entra al taller con todos los materiales preparados. Reducimos al mínimo el tiempo de espera.</p>
+            </div>
+          </li>
+          <li class="process-step" aria-labelledby="step-3">
+            <div class="step-number" aria-hidden="true">03</div>
+            <div class="step-content">
+              <h3 id="step-3" class="step-title">Control de calidad</h3>
+              <p class="step-desc">Antes de entregarte el vehículo revisamos cada detalle bajo luz de taller y natural. Sin concesiones.</p>
+            </div>
+          </li>
+          <li class="process-step" aria-labelledby="step-4">
+            <div class="step-number" aria-hidden="true">04</div>
+            <div class="step-content">
+              <h3 id="step-4" class="step-title">Entrega y garantía</h3>
+              <p class="step-desc">Te entregamos el coche con garantía escrita sobre la reparación. Si algo no está bien, vuelve sin coste.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section about-section" id="sobre-nosotros" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-content">
+            <span class="section-label">Quiénes somos</span>
+            <h2 id="about-heading" class="section-title about-title">Taller familiar en el corazón de Vitoria</h2>
+            <p class="about-text">Carrocerías Biyok nació en Vitoria-Gasteiz como un proyecto familiar con un objetivo claro: hacer bien las cosas. Llevamos más de veinte años reparando vehículos de todas las marcas en nuestra instalación de la Calle Los Isunza, 7.</p>
+            <p class="about-text">No somos un taller de cadena. Aquí conocemos a cada cliente y cada coche por su nombre. Trabajamos con la misma dedicación en un Seat de 2008 que en un BMW de alta gama.</p>
+            <div class="about-values" role="list" aria-label="Nuestros valores">
+              <div class="value-item" role="listitem"><span class="value-dot" aria-hidden="true"></span><span>Multimarca — todas las marcas, sin excepción</span></div>
+              <div class="value-item" role="listitem"><span class="value-dot" aria-hidden="true"></span><span>Presupuesto gratuito y sin compromiso</span></div>
+              <div class="value-item" role="listitem"><span class="value-dot" aria-hidden="true"></span><span>Garantía escrita en cada reparación</span></div>
+              <div class="value-item" role="listitem"><span class="value-dot" aria-hidden="true"></span><span>Trato directo con el técnico responsable</span></div>
+            </div>
+            <a href="#contacto" class="btn-primary">Hablar con nosotros</a>
+          </div>
+          <div class="about-visual" aria-hidden="true">
+            <div class="about-img-wrap">
+              <img src="https://picsum.photos/seed/biyok-workshop/600/700" alt="Interior del taller Carrocerías Biyok en Vitoria-Gasteiz" class="about-img" loading="lazy" width="600" height="700">
+              <div class="about-img-overlay"></div>
+            </div>
+            <div class="about-card-float">
+              <span class="float-number">+20</span>
+              <span class="float-label">años reparando<br>vehículos en Álava</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section insurance-section" aria-labelledby="insurance-heading">
+      <div class="container">
+        <div class="insurance-grid">
+          <div class="insurance-content">
+            <span class="section-label">Gestión de seguros</span>
+            <h2 id="insurance-heading" class="insurance-title">Gestionamos tu seguro sin complicaciones</h2>
+            <p class="insurance-text">Si el siniestro está cubierto por tu compañía aseguradora, nos encargamos de toda la gestión. Coordinamos directamente con el perito para que no tengas que preocuparte de nada.</p>
+            <a href="#contacto" class="btn-ghost">Contactar sobre siniestro</a>
+          </div>
+          <div class="insurance-icons" aria-hidden="true">
+            <div class="ins-icon-grid">
+              <div class="ins-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg><span>Siniestro cubierto</span></div>
+              <div class="ins-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg><span>Gestión directa</span></div>
+              <div class="ins-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg><span>Sin papeleo extra</span></div>
+              <div class="ins-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Todas las aseguradoras</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <span class="section-label">Contacto</span>
+            <h2 id="contact-heading" class="section-title">Pide tu presupuesto</h2>
+            <p class="contact-intro">Cuéntanos qué le pasa a tu coche. Te respondemos en menos de 24 horas.</p>
+            <address class="contact-details" aria-label="Información de contacto">
+              <div class="contact-item">
+                <svg class="contact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <div><span class="contact-label">Teléfono</span><a href="tel:945263244" class="contact-value">945 263 244</a></div>
+              </div>
+              <div class="contact-item">
+                <svg class="contact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                <div><span class="contact-label">Email</span><a href="mailto:cbiyok@hotmail.com" class="contact-value">cbiyok@hotmail.com</a></div>
+              </div>
+              <div class="contact-item">
+                <svg class="contact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                <div><span class="contact-label">Dirección</span><span class="contact-value">Calle Los Isunza, 7<br>01002 Vitoria-Gasteiz, Álava</span></div>
+              </div>
+              <div class="contact-item">
+                <svg class="contact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <div><span class="contact-label">Horario</span><span class="contact-value">Lun – Vie: 8:30 – 13:00 / 15:00 – 18:30<br>Sábados: con cita previa</span></div>
+              </div>
+            </address>
+          </div>
+          <div class="contact-form-wrap">
+            <form class="contact-form" id="contact-form" action="#" method="post" novalidate aria-label="Formulario de contacto">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Tu nombre" autocomplete="given-name" required aria-required="true">
+                  <span class="form-error" role="alert" aria-live="polite" id="nombre-error"></span>
+                </div>
+                <div class="form-group">
+                  <label for="telefono" class="form-label">Teléfono</label>
+                  <input type="tel" id="telefono" name="telefono" class="form-input" placeholder="612 345 678" autocomplete="tel" pattern="[6-9][0-9]{8}">
+                  <span class="form-error" role="alert" aria-live="polite" id="telefono-error"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="tu@email.com" autocomplete="email" required aria-required="true">
+                <span class="form-error" role="alert" aria-live="polite" id="email-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="servicio" class="form-label">¿Qué necesitas?</label>
+                <select id="servicio" name="servicio" class="form-input form-select">
+                  <option value="">Selecciona un servicio</option>
+                  <option value="chapa">Chapa y carrocería</option>
+                  <option value="pintura">Pintura y acabados</option>
+                  <option value="plasticos">Plásticos y fibras</option>
+                  <option value="llantas">Reparación de llantas</option>
+                  <option value="faros">Recuperación de faros</option>
+                  <option value="seguro">Gestión de seguro</option>
+                  <option value="otro">Otro</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="mensaje" class="form-label">Cuéntanos más</label>
+                <textarea id="mensaje" name="mensaje" class="form-input form-textarea" placeholder="Describe el estado de tu vehículo, modelo, año..." rows="4" required aria-required="true"></textarea>
+                <span class="form-error" role="alert" aria-live="polite" id="mensaje-error"></span>
+              </div>
+              <div class="form-footer">
+                <p class="form-legal">Al enviar aceptas nuestra <a href="#" class="form-legal-link">política de privacidad</a>.</p>
+                <button type="submit" class="btn-primary btn-submit" id="submit-btn">
+                  <span class="submit-text">Enviar consulta</span>
+                  <span class="submit-loading" aria-hidden="true" hidden>Enviando…</span>
+                </button>
+              </div>
+              <div class="form-success" id="form-success" role="alert" hidden>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Mensaje recibido. Te contactamos en menos de 24 horas.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="footer-logo" aria-label="Carrocerías Biyok - Inicio">
+            <span class="nav-logo-mark" aria-hidden="true">B</span>
+            <span class="footer-logo-text">Carrocerías Biyok</span>
+          </a>
+          <p class="footer-tagline">Taller multimarca en Vitoria-Gasteiz.<br>Carrocería, chapa y pintura del automóvil.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Navegación del pie de página">
+          <h3 class="footer-nav-title">Servicios</h3>
+          <ul role="list">
+            <li><a href="#servicios" class="footer-link">Chapa y carrocería</a></li>
+            <li><a href="#servicios" class="footer-link">Pintura y acabados</a></li>
+            <li><a href="#servicios" class="footer-link">Plásticos y fibras</a></li>
+            <li><a href="#servicios" class="footer-link">Reparación de llantas</a></li>
+            <li><a href="#servicios" class="footer-link">Recuperación de faros</a></li>
+          </ul>
+        </nav>
+        <div class="footer-contact">
+          <h3 class="footer-nav-title">Contacto</h3>
+          <address>
+            <p class="footer-address">Calle Los Isunza, 7<br>01002 Vitoria-Gasteiz</p>
+            <a href="tel:945263244" class="footer-link">945 263 244</a><br>
+            <a href="mailto:cbiyok@hotmail.com" class="footer-link">cbiyok@hotmail.com</a>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-legal">© 2024 Carrocerías Biyok SCL · NIF F010333067 · <a href="#" class="footer-legal-link">Aviso legal</a> · <a href="#" class="footer-legal-link">Política de privacidad</a> · <a href="#" class="footer-legal-link">Cookies</a></p>
+        <p class="footer-legal">C/ Los Isunza, 7 · 01002 Vitoria-Gasteiz, Álava · <a href="mailto:cbiyok@hotmail.com" class="footer-legal-link">cbiyok@hotmail.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Aviso de cookies" aria-live="polite">
+    <div class="cookie-content">
+      <p class="cookie-text">Usamos cookies propias para mejorar tu experiencia. Al continuar navegando aceptas su uso.</p>
+      <div class="cookie-actions">
+        <button class="btn-ghost btn-sm" id="cookie-reject">Solo esenciales</button>
+        <button class="btn-primary btn-sm" id="cookie-accept">Aceptar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
